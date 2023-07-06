@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "lab-rab-9"
+version = "0.1.0"
+description = ""
+authors = ["AnastasiyaPyankova <nastya.pyankova.empty@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lab_rab_9"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.99.1"
+sqlalchemy = "^2.0.18"
+python-dotenv = "^1.0.0"
+alembic = "^1.11.1"
+psycopg2 = "^2.9.6"
+uvicorn = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
